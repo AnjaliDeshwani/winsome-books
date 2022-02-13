@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Winsome Books</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/triangle-41363.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://winsome-ui.netlify.app/css/winsome.css"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="product-list.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="" class="navbar-brand">
+          <img class="navbar-brand-logo" src="../assets/logo.png" alt="" />
+          <h2 class="navbar-brand-heading">WINSOME BOOKS</h2>
+        </a>
+        <div class="search-container">
+          <input
+            type="text"
+            class="search-bar input-txt"
+            placeholder="Type to search"
+          />
+          <button class="search-btn btn">
+            <span class="search-icon">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </span>
+            Search
+          </button>
+        </div>
+        <div class="nav-list">
+          <ul class="list spaced-list">
+            <li class="nav-item">
+              <a href="">
+                <span>
+                  <i class="fas fa-user"></i>
+                </span>
+                <span>Login</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="">
+                <span>
+                  <i class="fas fa-heart"></i>
+                </span>
+                <span>Wishlist</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="">
+                <span>
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+                <span>Cart</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main-products-section">
+      <div class="filter-section">
+        <div class="filter-block">
+          <div class="filter-text">
+            <div class="font-bold">Filters</div>
+            <div>
+              <span class="clear-all-btn font-semibold">Clear all</span>
+            </div>
+          </div>
+          <div class="filter-price">
+            <div class="font-bold">Price</div>
+            <ul class="list stacked-list">
+              <li>
+                <input type="checkbox" name="" value="" />
+                <label for="">Under ₹100</label>
+              </li>
+              <li>
+                <input type="checkbox" name="" value="" />
+                <label for="">₹100 - ₹300</label>
+              </li>
+              <li>
+                <input type="checkbox" name="" value="" />
+                <label for="">₹300 - ₹700</label>
+              </li>
+              <li>
+                <input type="checkbox" name="" value="" />
+                <label for="">₹700 - ₹1,000</label>
+              </li>
+              <li>
+                <input type="checkbox" name="" value="" />
+                <label for="">Over ₹1,000</label>
+              </li>
+            </ul>
+          </div>
+          <div class="filter-category">
+            <div class="font-bold">Categories</div>
+            <ul class="list stacked-list">
+              <li>
+                <input type="checkbox" name="" value="" />
+                <label for="">Literature and Fiction</label>
+              </li>
+              <li>
+                <input type="checkbox" name="" value="" />
+                <label for="">Crime, Suspense and Thrillers</label>
+              </li>
+              <li>
+                <input type="checkbox" name="" value="" />
+                <label for="">Romance</label>
+              </li>
+              <li>
+                <input type="checkbox" name="" value="" />
+                <label for="">Children Stories</label>
+              </li>
+              <li>
+                <input type="checkbox" name="" value="" />
+                <label for="">Nonfiction</label>
+              </li>
+            </ul>
+          </div>
+          <div class="filter-ratings">
+            <div class="font-bold">Ratings</div>
+            <ul class="list stacked-list">
+              <li>
+                <input type="checkbox" name="" value="" />
+                <label for="">4★ & above</label>
+              </li>
+              <li>
+                <input type="checkbox" name="" value="" />
+                <label for="">3★ & above</label>
+              </li>
+              <li>
+                <input type="checkbox" name="" value="" />
+                <label for="">2★ & above</label>
+              </li>
+              <li>
+                <input type="checkbox" name="" value="" />
+                <label for="">1★ & above</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="products-section">
+        <h3 class="product-heading">
+          Showing Products
+          <span class="product-heading-small text-grey text-regular">
+            (Showing 1 – 20 products of 20 products)</span
+          >
+        </h3>
+        <div class="product-list-grid">
+          <div class="card ecomm-card">
+            <div class="card-head">
+              <div class="image-badge-div">
+                <img
+                  src="../assets/Book1.jpg"
+                  alt="card-pic"
+                  class="product-image"
+                />
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-title">Good Vibes, Good Life</div>
+              <button class="like-icon">
+                <span>
+                  <i class="fas fa-heart"></i>
+                </span>
+              </button>
+              <div class="card-text">By Vex King</div>
+              <div class="card-price">
+                <span class="price-now">Rs. 769</span>
+                <span class="price-before">Rs. 855</span>
+                <span class="discount">10%</span>
+              </div>
+              <button class="btn primary-btn-solid add-">Add to cart</button>
+            </div>
+          </div>
+          <div class="card ecomm-card">
+            <div class="card-head">
+              <div class="image-badge-div">
+                <img
+                  src="../assets/Book2.jpg"
+                  alt="card-pic"
+                  class="product-image"
+                />
+                <span class="new-badge primary-btn-solid">New</span>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-title">A Thousand Splendid Suns</div>
+              <button class="like-icon">
+                <span>
+                  <i class="fas fa-heart"></i>
+                </span>
+              </button>
+              <div class="card-text">By Khaled Hosseini</div>
+              <div class="card-price">
+                <span class="price-now">Rs. 769</span>
+                <span class="price-before">Rs. 855</span>
+                <span class="discount">10%</span>
+              </div>
+              <button class="btn primary-btn-solid add-">Add to cart</button>
+            </div>
+          </div>
+
+          <div class="card ecomm-card">
+            <div class="card-head">
+              <div class="image-badge-div">
+                <img
+                  src="../assets/Book3.jpg"
+                  alt="card-pic"
+                  class="product-image"
+                />
+                <span class="new-badge primary-btn-solid">New</span>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-title">The Little Prince</div>
+              <button class="like-icon">
+                <span>
+                  <i class="fas fa-heart"></i>
+                </span>
+              </button>
+              <div class="card-text">By Antoine</div>
+              <div class="card-price">
+                <span class="price-now">Rs. 769</span>
+                <span class="price-before">Rs. 855</span>
+                <span class="discount">10%</span>
+              </div>
+              <button class="btn primary-btn-solid add-">Add to cart</button>
+            </div>
+          </div>
+          <div class="card ecomm-card">
+            <div class="card-head">
+              <div class="image-badge-div">
+                <img
+                  src="../assets/Book1.jpg"
+                  alt="card-pic"
+                  class="product-image"
+                />
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-title">Good Vibes, Good Life</div>
+              <button class="like-icon">
+                <span>
+                  <i class="fas fa-heart"></i>
+                </span>
+              </button>
+              <div class="card-text">By Vex King</div>
+              <div class="card-price">
+                <span class="price-now">Rs. 769</span>
+                <span class="price-before">Rs. 855</span>
+                <span class="discount">10%</span>
+              </div>
+              <button class="btn primary-btn-solid add-">Add to cart</button>
+            </div>
+          </div>
+          <div class="card ecomm-card">
+            <div class="card-head">
+              <div class="image-badge-div">
+                <img
+                  src="../assets/Book2.jpg"
+                  alt="card-pic"
+                  class="product-image"
+                />
+                <span class="new-badge primary-btn-solid">New</span>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-title">A Thousand Splendid Suns</div>
+              <button class="like-icon">
+                <span>
+                  <i class="fas fa-heart"></i>
+                </span>
+              </button>
+              <div class="card-text">By Khaled Hosseini</div>
+              <div class="card-price">
+                <span class="price-now">Rs. 769</span>
+                <span class="price-before">Rs. 855</span>
+                <span class="discount">10%</span>
+              </div>
+              <button class="btn primary-btn-solid add-">Add to cart</button>
+            </div>
+          </div>
+
+          <div class="card ecomm-card">
+            <div class="card-head">
+              <div class="image-badge-div">
+                <img
+                  src="../assets/Book3.jpg"
+                  alt="card-pic"
+                  class="product-image"
+                />
+                <span class="new-badge primary-btn-solid">New</span>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-title">The Little Prince</div>
+              <button class="like-icon">
+                <span>
+                  <i class="fas fa-heart"></i>
+                </span>
+              </button>
+              <div class="card-text">By Antoine</div>
+              <div class="card-price">
+                <span class="price-now">Rs. 769</span>
+                <span class="price-before">Rs. 855</span>
+                <span class="discount">10%</span>
+              </div>
+              <button class="btn primary-btn-solid add-">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-item footer-copy">Copyright © 2022 WINSOME-BOOKS.</div>
+      <div class="footer-item">All Rights Reserved</div>
+      <div class="footer-item">
+        <div class="footer-icons">
+          <a
+            href="https://github.com/AnjaliDeshwani"
+            target="_blank"
+            class="footer-link"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+
+        <div class="footer-icons">
+          <a
+            href="https://twitter.com/anjali_deshwani"
+            target="_blank"
+            class="footer-link"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+        <div class="footer-icons">
+          <a
+            href="https://www.linkedin.com/in/anjalideshwani/"
+            target="_blank"
+            class="footer-link"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
