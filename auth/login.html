@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Winsome Books</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/triangle-41363.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://winsome-ui.netlify.app/css/winsome.css"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="auth.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header class="header">
+        <nav class="navbar">
+          <a href="../index.html" class="navbar-brand">
+            <img
+              class="navbar-brand-logo"
+              src="../assets/logo.png"
+              alt="logo image"
+            />
+            <h2 class="navbar-brand-heading">WINSOME BOOKS</h2>
+          </a>
+          <div class="search-container">
+            <input
+              type="text"
+              class="search-bar input-txt"
+              placeholder="Type to search"
+            />
+            <button class="search-btn btn">
+              <span class="search-icon">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </span>
+              Search
+            </button>
+          </div>
+          <div class="nav-list">
+            <ul class="list spaced-list">
+              <li class="nav-item">
+                <a href="login.html">
+                  <span>
+                    <i class="fas fa-user"></i>
+                  </span>
+                  <span>Login</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../wishlist/wishlist.html">
+                  <span>
+                    <i class="fas fa-heart"></i>
+                  </span>
+                  <span>Wishlist</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Cart/cart.html">
+                  <span>
+                    <i class="fas fa-shopping-cart"></i>
+                  </span>
+                  <span>Cart</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main class="auth-section">
+        <div class="auth-container">
+          <div class="auth-title">
+            <h2>Login</h2>
+          </div>
+          <div class="auth-body">
+            <div class="auth-items">
+              <div class="input-group">
+                <label class="input-label">Email Address</label>
+                <input type="text" class="input-txt" />
+              </div>
+            </div>
+            <div class="auth-items">
+              <div class="input-group">
+                <label class="input-label">Password</label>
+                <input type="password" class="input-txt" />
+              </div>
+            </div>
+            <div class="auth-items checkbox-item">
+              <div class="select-input">
+                <input type="checkbox" class="remember-checkbox" />
+                Remember Me
+              </div>
+              <a href="" class="auth-link">Forgot your Password?</a>
+            </div>
+            <div class="auth-items">
+              <button class="btn primary-btn-solid">Login</button>
+            </div>
+            <div class="auth-items signup-item">
+              Need an account?
+              <a href="signup.html" class="auth-link">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer class="footer">
+      <div class="footer-item footer-copy">Copyright © 2022 WINSOME-BOOKS.</div>
+      <div class="footer-item">All Rights Reserved</div>
+      <div class="footer-item">
+        <div class="footer-icons">
+          <a
+            href="https://github.com/AnjaliDeshwani"
+            target="_blank"
+            class="footer-link"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+
+        <div class="footer-icons">
+          <a
+            href="https://twitter.com/anjali_deshwani"
+            target="_blank"
+            class="footer-link"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+        <div class="footer-icons">
+          <a
+            href="https://www.linkedin.com/in/anjalideshwani/"
+            target="_blank"
+            class="footer-link"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
