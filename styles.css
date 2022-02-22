@@ -36,6 +36,11 @@
   outline: none;
 }
 
+.header .navbar .search-container .input-txt {
+  width: 80%;
+  margin-left: 1rem;
+}
+
 .header .navbar .search-container .search-btn {
   display: flex;
   align-items: center;
@@ -49,12 +54,12 @@
   margin-left: 10rem;
 }
 
-.header .navbar .nav-list .nav-item {
-  padding: 12px 16px;
+.header .nav-list .spaced-list {
+  justify-content: flex-end;
 }
 
-.header .navbar .nav-list .nav-item:hover {
-  outline: var(--black-color) solid 1px;
+.header .navbar .nav-list .nav-item {
+  padding: 12px 16px;
 }
 
 .slider-section {
@@ -74,11 +79,12 @@
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+  background-size: cover;
 }
 
 .slider-section .image-container .caption {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 5%;
   color: var(--white-color);
 }
@@ -145,4 +151,5 @@
 .footer {
   height: 7rem;
   margin-top: 2rem;
+  gap: 8px;
 }

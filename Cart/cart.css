@@ -110,6 +110,10 @@
   margin: 1rem 0;
 }
 
+.items-discount .right-detai {
+  color: var(--red-color);
+}
+
 .price-deatil-body .total-price-div {
   border-top: 1px dotted var(--dark-gray-color);
   border-bottom: 1px dotted var(--dark-gray-color);
@@ -127,5 +131,5 @@
 }
 
 .price-detail-footer .footer-note {
-  color: var(--action-color);
+  color: var(--primary-color);
 }
