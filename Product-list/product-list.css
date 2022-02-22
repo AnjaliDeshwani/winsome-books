@@ -44,6 +44,7 @@
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+  width: 100%;
 }
 
 .card-head .image-badge-div .product-image {
