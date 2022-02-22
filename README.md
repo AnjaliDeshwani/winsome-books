@@ -15,4 +15,4 @@ You will find the world’s great literature here, it is an e-commerce site with
 
 ## Demo
 
-\assets\Ecomm-demo.gif
+![](https://github.com/AnjaliDeshwani/winsome-books/blob/dev/assets/Ecomm-demo.gif)
